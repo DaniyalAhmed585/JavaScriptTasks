@@ -1,0 +1,12 @@
+table{
+    border-style: solid;
+    text-align: center;
+    width: 40%;
+}
+td{
+   padding: 10px;
+   border: 1px solid; 
+}
+#d2 , #d3 , #d4 {
+    font-weight: bold;
+}
