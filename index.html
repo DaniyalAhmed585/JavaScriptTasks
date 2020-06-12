@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 5</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body onload="getData()">
     <!-- CHAPTER 01 -->
     <h1 style="text-align: center; background-color: bisque;">CHAPTER 01</h1>
@@ -46,6 +48,24 @@
             <td id="d4"></td>
         </tr>
     </table>
+
+
+    <!-- CHAPTER 14 - 16 -->
+    <h1 style="text-align: center; background-color: bisque;">CHAPTER 14 - 16</h1>
+    <button id="chap14btn" type="button" onclick="addColorBegin()">Want to add more colors at the begining?</button>
+    <button id="chap14btn" type="button" onclick="addColorEnd()">Want to add more colors at the end?</button>
+    <button id="chap14btn" type="button" onclick="addColorIndex()">Want to add color at your desired index?</button>
+    <button id="chap14btn" type="button" onclick="removeColorIndex()">Want to delete color from your desired
+        index?</button>
+
+    <form id="myForm" style="text-align: center;">
+        <select id="selectBrand">
+            <option>Choose a number</option>
+        </select>
+    </form>
+
+
 </body>
-    <script src="app.js"></script>
+<script src="app.js"></script>
+
 </html>

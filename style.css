@@ -25,3 +25,17 @@ td{
 #d2 , #d3 , #d4 {
     font-weight: bold;
 }
+
+
+/* CHAPTER 14 - 16 */
+#chap14btn {
+    border-radius: 10%;
+    border-color: yellow;
+    background-color: silver;
+    color: yellow;
+    height: 50px;
+    width: 200px;
+    margin-left: 7%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
